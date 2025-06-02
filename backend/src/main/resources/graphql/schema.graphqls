@@ -26,7 +26,7 @@ type Mutation {
     removeMember(membershipId: ID!): Boolean!
 
     createDebt(debtDTO: DebtInput!): Debt!
-    deleteDebt(debtId: ID!, currentUser: ID!): Boolean!
+    deleteDebt(debtId: ID!): Boolean!
 
     addGroupTransaction(groupTransactionDTO: GroupTransactionInput!): Boolean
 
